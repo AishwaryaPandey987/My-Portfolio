@@ -4,7 +4,7 @@ import {
   Route,
   Link,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LandingPage from "./LandingPage";
@@ -70,8 +70,8 @@ const App = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={Aboutme}>
-                    About Me
+                  <Link className="nav-link" to="/aboutme">
+                    <button className="btn btn-primary">Hire Me</button>
                   </Link>
                 </li>
               </ul>
@@ -88,9 +88,9 @@ const App = () => {
             <Route path="/education" element={<Education />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/aboutme" element={<Aboutme />} />
-            
+
             {/* Redirect any unknown route to LandingPage */}
-            <Route path="/" element={<Navigate to={<LandingPage/>} />} />
+            <Route path="/" element={<Navigate to={<LandingPage />} />} />
           </Routes>
           <ScrollToTop />
         </div>
