@@ -71,7 +71,7 @@ const App = () => {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/aboutme">
-                    <button className="btn btn-primary">Hire Me</button>
+                   About me
                   </Link>
                 </li>
               </ul>

@@ -13,9 +13,9 @@ const LandingPage = () => {
         "Passionate Web Developer & Prompt Engineer ready to bring 
         innovative solutions to your projects—let’s build something amazing together!"
         </p>
-        <a href="/Aboutme" className="hire-me-btn" >
-  Hire Me
-</a>
+        <Link className="nav-link" to="/aboutme">
+                    <button className="btn btn-primary">Hire Me</button>
+                  </Link>
       </div>
       <div className="image-container">
         <img
