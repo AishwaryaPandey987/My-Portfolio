@@ -1,0 +1,32 @@
+
+.education-container {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    
+  
+  }
+  
+  .education-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  
+  }
+  
+  .education-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    color: #343a40;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }

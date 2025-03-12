@@ -1,0 +1,22 @@
+.projects-container {
+    margin: 20px auto;
+}
+
+.project-card {
+    margin: 15px 0;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tech-item {
+    background-color: #f8f9fa; /* Light background for tech stack */
+    border: 1px solid #dee2e6; /* Border color */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.85rem; /* Slightly smaller font size */
+}

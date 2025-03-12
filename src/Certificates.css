@@ -1,0 +1,83 @@
+.certificates-container {
+    margin: 20px auto;
+    text-align: center;
+  
+  }
+
+  
+  .instructor-card {
+    margin: 20px;
+    transition: transform 0.2s;
+    height: 630px;
+    width: 625px;
+    
+  }
+  .text-center{
+    justify-content: center;
+    align-items: center;
+  }
+  .instructor-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-container {
+    height: 460px; /* Adjust height as needed */
+    width: 620px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+  }
+  img{
+    width: 645px;
+    height: 455px;
+  }
+  .my-custom-col {
+    height: 720px; /* Set your desired height */
+    width: 710px;
+    padding: 20px; /* Optional: padding for content */
+  }
+  /* Certificates.css */
+  .carousel-control-prev{
+    width: 50px; /* Set width for the controls */
+    height: 50px; /* Set height for the controls */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Make buttons circular */
+   top: 0px;
+   margin-top: 180px;
+   margin-bottom: 0px;
+   
+  }
+  
+  
+  .carousel-control-next {
+      width: 50px; /* Set width for the controls */
+      height: 50px; /* Set height for the controls */
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      border-radius: 50%; /* Make buttons circular */
+      right: 50px;
+      top: 0px;
+   margin-top: 180px;
+   margin-bottom: 0px;
+  }
+  
+ 
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+      background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+  }
+  
+  
+  .carousel-control-next i {
+      font-size: 24px; /* Adjust icon size */
+      color:black; /* Change icon color */
+    
+  }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%; 
+}
+  /*
+  /* Add additional styles as needed to fit your design */

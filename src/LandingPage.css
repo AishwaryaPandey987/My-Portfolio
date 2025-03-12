@@ -1,0 +1,58 @@
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .intro h3 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .intro p {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+  
+  .hire-me-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hire-me-btn:hover {
+    background-color: #0056b3; /* darker blue for hover */
+  }
+  
+  .image-container {
+    margin-top: 10px;
+  }
+  
+  .profile-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  a {
+    text-decoration: none; /* Removes underline from all anchor tags */
+}

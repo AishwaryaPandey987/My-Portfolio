@@ -1,0 +1,27 @@
+
+.skills-container {
+    margin-top: 1.5rem;
+}
+
+.skill-card {
+    border: 1px solid #dee2e6; /* Light border for the card */
+    border-radius: 0.5rem; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transform effect */
+}
+
+.skill-card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.skill-icon {
+    font-size: 2rem; /* Increase icon size */
+    margin-bottom: 1rem; /* Space below the icon */
+}
+.skill-card-box{
+    margin-top: 20px;
+    
+}
+.skills-heading{
+    text-align: center;
+    margin-top: 40px;
+}
