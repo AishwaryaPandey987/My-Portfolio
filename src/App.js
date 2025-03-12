@@ -70,7 +70,7 @@ const App = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/aboutme">
+                  <Link className="nav-link" to={Aboutme}>
                     About Me
                   </Link>
                 </li>
@@ -90,7 +90,7 @@ const App = () => {
             <Route path="/aboutme" element={<Aboutme />} />
             
             {/* Redirect any unknown route to LandingPage */}
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/" element={<Navigate to={<LandingPage/>} />} />
           </Routes>
           <ScrollToTop />
         </div>
