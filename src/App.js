@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Link,
-  Switch,
   Routes,
+  Navigate
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LandingPage from "./LandingPage";
@@ -24,7 +24,7 @@ const App = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-            Web Wonders
+              Web Wonders
             </Link>
             <button
               className="navbar-toggler"
@@ -39,9 +39,9 @@ const App = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-              <li className="nav-item">
+                <li className="nav-item">
                   <Link className="nav-link" to="/">
-                  Home
+                    Home
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -88,6 +88,9 @@ const App = () => {
             <Route path="/education" element={<Education />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/aboutme" element={<Aboutme />} />
+            
+            {/* Redirect any unknown route to LandingPage */}
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <ScrollToTop />
         </div>
